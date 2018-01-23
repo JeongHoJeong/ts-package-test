@@ -31,5 +31,6 @@
     "testMatch": [
       "**/*.spec.ts"
     ]
-  }
+  },
+  "repository": "github:JeongHoJeong/ts-package-test"
 }
