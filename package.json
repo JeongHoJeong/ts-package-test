@@ -32,5 +32,6 @@
       "**/*.spec.ts"
     ]
   },
-  "repository": "github:JeongHoJeong/ts-package-test"
+  "repository": "github:JeongHoJeong/ts-package-test",
+  "types": "dist/main.d.ts"
 }
