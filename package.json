@@ -1,0 +1,28 @@
+{
+  "name": "npm-ts-pkg-test-jeongho",
+  "version": "1.0.0",
+  "description": "TypeScript npm package example",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "pretest": "npm run lint",
+    "lint": "tslint --project tsconfig.json --exclude dist"
+  },
+  "author": "Jeongho Jeong",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "jest": "^22.1.4",
+    "ts-jest": "^22.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testMatch": ["**/*.spec.ts"]
+  }
+}
