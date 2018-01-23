@@ -1,6 +1,6 @@
 {
-  "name": "npm-ts-pkg-test-jeongho",
-  "version": "1.0.0",
+  "name": "npm-test-jeongho",
+  "version": "1.0.3",
   "description": "TypeScript npm package example",
   "main": "dist/main.js",
   "scripts": {
@@ -33,5 +33,6 @@
     ]
   },
   "repository": "github:JeongHoJeong/ts-package-test",
-  "types": "dist/main.d.ts"
+  "types": "dist/main.d.ts",
+  "files": ["dist/"]
 }
